@@ -1,0 +1,33 @@
+#circle {
+    animation: circles 2s infinite linear;
+    transform-origin: 651.25px 407.75px;
+    animation-duration: 10s;
+}
+
+@keyframes circles {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+#plane {
+    transform: translate(-25rem);
+    animation: plane 10s linear infinite;
+}
+
+@keyframes plane {
+    from {
+    transform: translate(-10rem);
+    }
+    to {
+    transform: translate(80rem);
+    }
+}
+
+#text:hover{
+    transform: translateY(4rem);
+    transition: transform 3s;
+}
